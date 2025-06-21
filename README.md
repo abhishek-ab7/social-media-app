@@ -1,75 +1,61 @@
-📱 Social Media App
+# 📱 Social Media App
 
-A simple social media web app built using **Vue 3 + PrimeVue** (frontend) and **NestJS + MongoDB** (backend).
+A full-stack social media application built with the Vue 3 and NestJS frameworks. This project features user authentication, post creation, a timeline feed, and the ability to follow and unfollow other users.
 
+## ✨ Features
 
-📦 Project Structure
+-   **User Authentication**: Secure sign-up and login functionality.
+-   **Create & View Posts**: Users can create new posts and view posts from people they follow.
+-   **Follow / Unfollow Users**: A simple social graph lets users follow and unfollow others.
+-   **Interactive Timeline**: A central timeline to see all the content.
+-   **Responsive UI**: A clean user interface built with PrimeVue and PrimeFlex.
 
-
-social_media_app/
-├── frontend/   → Vue 3 + PrimeVue client app
-├── backend/    → NestJS API server
-└── README.md   → This file
-
-
-
- 🚀 How to Run
-
- 📌 Frontend Setup
-
-1️⃣ Open terminal and navigate to the frontend folder:
+## 🚀 Getting Started
 
 
-cd frontend
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/social-media-app.git
+    cd social-media-app
+    ```
+
+2.  **Backend Setup:**
+    -   Navigate to the backend directory:
+        ```sh
+        cd backend
+        ```
+    -   Install dependencies:
+        ```sh
+        npm install
+        ```
+    -   Create a `.env` file in the `backend` directory and add your MongoDB connection string.
+        ```
+        MONGO_URI=your_mongodb_connection_string
+        ```
+    -   Start the backend server:
+        ```sh
+        npm run start:dev
+        ```
+    -   The backend API will be running at `http://localhost:3000`.
+
+3.  **Frontend Setup:**
+    -   In a new terminal, navigate to the frontend directory:
+        ```sh
+        cd frontend
+        ```
+    -   Install dependencies:
+        ```sh
+        npm install
+        ```
+    -   Start the frontend development server:
+        ```sh
+        npm run serve
+        ```
+    -   The frontend will be running at `http://localhost:8080`.
 
 
-2️⃣ Install dependencies:
-
-
-npm install
-
-
-3️⃣ Start the frontend development server:
-
-
-npm run serve
-
-
-The frontend will run at [http://localhost:8080](http://localhost:8080)
-
-
-
-📌 Backend Setup
-
-1️⃣ Open another terminal and navigate to the backend folder:
-
-
-cd backend
-
-
-2️⃣ Install dependencies:
-
-
-npm install
-
-
-3️⃣ Create a `.env` file in the `backend` folder and add your MongoDB connection string:
-
-```
-MONGO_URI=your_mongodb_connection_string
-```
-
-4️⃣ Start the backend development server:
-
-
-npm run start:dev
-
-
-The backend API will run at [http://localhost:3000](http://localhost:3000)
-
-
-
- Done!
 
 Now you have both servers running:  
 ✅ `http://localhost:8080` → frontend  
