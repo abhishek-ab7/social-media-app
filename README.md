@@ -17,7 +17,7 @@ A full-stack social media application built with the Vue 3 and NestJS frameworks
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/social-media-app.git
+    [git clone https://github.com/your-username/social-media-app.git](https://github.com/abhishek-ab7/social-media-app.git)
     cd social-media-app
     ```
 
